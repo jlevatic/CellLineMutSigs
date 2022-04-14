@@ -39,3 +39,62 @@ The script is loaded into R environment as follows: ```source("ancestryMatching.
 * BSgenome.Hsapiens.UCSC.hg38
 
 #### Expected running time of example: <1min
+
+
+## signatureExtraction
+
+Contains data, script, and example for running the code for NMF based signature extraction. The final set of signatures is determined as a set of signatures that best resemble the set of provided reference signatures.
+
+### System requirements:
+
+R (tested on version 3.6.2)
+
+The script was tested on the following OS: Windows 10 Pro x64
+
+### Hardware requirements:
+
+A standard computer with enough RAM to support the in-memory operations, equipped with graphics processing unit (GPU) compatible with the CUDA toolkit.
+
+### Installation guide:
+
+There are no specific installation requirements other than installing R, the R packages the script depends on, and the CUDA toolkit.
+
+The script is loaded into R environment as follows:
+```source("signatureExtraction.R")```
+
+### R dependencies:
+* dplyr (tested on version 1.0.4)
+* nmfgpu4R (tested on version 0.2.5.3)
+* data.table (tested on version 1.13.6)
+* stringr (tested on version 1.4.0)
+
+#### Expected running time of example: ~1min
+
+## twoWayAssociationTesting
+
+Contains data, script, and example for running the code for association testing based
+on two independent databases.
+
+### System requirements:
+
+R (tested on version 3.6.2)
+
+The script was tested on the following OS: Windows 10 Pro x64
+
+### Hardware requirements:
+
+A standard computer with enough RAM to support the in-memory operations.
+
+### Installation guide:
+
+There are no specific installation requirements other than installing R and the R
+packages the script depends on.
+
+The script is loaded into R environment as follows:
+```source("twoWayAssociationTesting.R")```
+
+### R dependencies:
+* readr (tested on version 1.4.0)
+* effsize (tested on version 0.8.1)
+
+#### Expected running time of example: ~10min
