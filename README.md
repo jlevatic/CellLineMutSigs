@@ -29,13 +29,13 @@ The script is loaded into R environment as follows: ```source("ancestryMatching.
 
 ### R dependencies:
 
-⋅⋅* tclust (tested on version 1.4-2)
-⋅⋅* pcaPP (tested on version 1.9-74)
-⋅⋅* foreach (tested on version 1.5.0)
-⋅⋅* doParallel (tested on version 1.0.16)
-⋅⋅* Additional optional R dependencies if remove.CNVkit.deletions option is used:
-⋅⋅* GenomicRanges (tested on version 1.38.0)
-⋅⋅* Biostrings (tested on version 2.54.0)
-⋅⋅* BSgenome.Hsapiens.UCSC.hg38
+* tclust (tested on version 1.4-2)
+* pcaPP (tested on version 1.9-74)
+* foreach (tested on version 1.5.0)
+* doParallel (tested on version 1.0.16)
+* Additional optional R dependencies if remove.CNVkit.deletions option is used:
+* GenomicRanges (tested on version 1.38.0)
+* Biostrings (tested on version 2.54.0)
+* BSgenome.Hsapiens.UCSC.hg38
 
 #### Expected running time of example: <1min
