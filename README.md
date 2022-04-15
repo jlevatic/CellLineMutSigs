@@ -98,3 +98,8 @@ The script is loaded into R environment as follows:
 * effsize (tested on version 0.8.1)
 
 #### Expected running time of example: ~10min
+
+## DOI
+
+[10.5281/zenodo.6463399](https://doi.org/10.5281/zenodo.6463399)
+
